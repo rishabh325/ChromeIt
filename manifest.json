@@ -1,0 +1,66 @@
+{
+  "manifest_version": 2,
+
+  "name": "MailIt",
+  "description": "Mail on the go!",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+
+
+  "permissions": [  
+          "tabs",      
+          "contextMenus",
+          "notifications",
+          "https://mail.google.com/*",
+          "activeTab"
+
+        ]
+}
+//<textarea rows="1" id=":oa" class="vO" name="to" spellcheck="false" autocomplete="false" autocapitalize="off" autocorrect="off" tabindex="1" dir="ltr" aria-label="To" role="combobox" aria-autocomplete="list" style="width: 694px;"></textarea>
+//https://mail.google.com/mail/?view=cm&fs=1&tf=1
+//<div class="T-I J-J5-Ji T-I-KE L3" role="button" tabindex="0" gh="cm" style="user-select: none;">COMPOSE</div>
+/*{
+  "manifest_version": 2,
+
+  "name": "PageFontStyle",
+  "description": "This extension changes the font style in a specific page.",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+
+  "page_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html",
+    "default_title": "PageFontStyle"
+  },
+
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+
+  "content_scripts":[
+    {
+      "matches": ["https://developer.chrome.com/*"],
+      "js": ["content.js", "jquery-3.1.0.min.js"],
+      "css": ["content.css"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "https://developer.chrome.com/*"
+        ]
+}*/
